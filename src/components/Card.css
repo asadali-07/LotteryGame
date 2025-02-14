@@ -1,0 +1,65 @@
+.card{
+    height: 10rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    margin-top: 1rem;
+}
+p{
+    margin-top: 1rem;
+}
+.price{
+    height: 2rem;
+    background-color: rgb(255, 186, 82);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-top: 1rem;
+}
+.like{
+    color: red;
+}
+.likebutton{
+    margin-left: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 5rem;
+    background-color: transparent;
+}
+.red{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 30px;
+}
+.green{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 30px;
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 30px;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 30px;
+}

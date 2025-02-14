@@ -1,0 +1,31 @@
+h1,h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+.numbers{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* button{
+    margin-left:590px;
+    cursor: pointer;
+    margin-top: 1rem;
+} */
+.comment,form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
